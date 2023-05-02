@@ -32,7 +32,7 @@ let action = ""
 let yValue = 0
 let xValue = 0
 comment.comment("CHANGE THE RADIO GROUP TO YOUR TEAM'S JOYSTICK NUMBER")
-radio.setGroup(17)
+radio.setGroup(64)
 basic.showIcon(IconNames.Yes)
 basic.showString("R")
 basic.forever(function () {
